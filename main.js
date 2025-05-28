@@ -21,7 +21,7 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 
     if(user_age < 18){
 
-        // va applicato uno sconto del 20% per i minorenni (età > 18)
+        // va applicato uno sconto del 20% per i minorenni (età < 18)
         ticket_price = ticket_price - (ticket_price * 0.2)
 
         // L'output del prezzo finale va messo fuori in forma umana (con massimo due decimali, per indicare centesimi sul prezzo). Questo richiederà un minimo di ricerca.
